@@ -1,0 +1,18 @@
+<form method='post' action='updaterecord//{{mylife.rollno}}'>
+    {% csrf_token %}
+        <label for ='age'>Age:</label><br>
+        <input type='text' id='age' name='age' value='{{mylife.age}}'><br>
+        <label for ='topic'>Topic:</label><br>
+        <input type='text' id='topic' name='topic' value='{{mylife.topic}}'><br>
+        <label for='college'>College:</label><br>
+        <input type='text' id='college' name='college' value='{{mylife.college}}'><br>
+        <label for='school'>School:</label><br>
+        <input type='school' id='school' name='school' value='{{mylife.school}}'><br>
+        <label for='roolno'>Rollno:</label><br>
+        <input type='teext' id='rollno' name='rollno' value='{{mylife.rollno}}'><br>
+        <br>
+        <input for='submit' value='submit'>
+</form>
+
+
+

@@ -1,0 +1,21 @@
+<h1> mylife </h1>
+<table border=''>
+    {% for x in mylife%}
+    <tr>
+        <td>{{x.id}}</td>
+        <td>{{x.age}}</td>
+        <td>{{x.topic}}</td>
+        <td>{{x.college}}</td>
+        <td>{{x.school}}</td>
+        <td><a href="update/{{x.rollno}}">{{x.rollno}}</a></td>
+        <td><a href="delete/{{x.id}}">Delete</a></td>
+    </tr>
+    {%endfor%}
+</table>    
+
+
+
+
+
+        
+
